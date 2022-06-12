@@ -16,39 +16,39 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/Boise
+timezone:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Project Docs                           # the main title
+title: Chirpy                          # the main title
 
-tagline: Documentation for projects and ideas   # it will display as the sub-title
+tagline: A text-focused Jekyll theme   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Documentation for projects and ideas
+  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
 github:
-  username: wmsmckay             # change to your github username
+  username: github_username             # change to your github username
 
-# twitter:
-#   username: twitter_username            # change to your twitter username
+twitter:
+  username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: McKay Williams
-  email: wmckay342@gmail.com             # change to your email address
+  name: your_full_name
+  email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/wmsmckay       # change to your github homepage
+    - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/mckay-williams
+    # - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string
 
@@ -84,7 +84,6 @@ img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar:
-  "https://avatars.githubusercontent.com/u/35322456?v=4"
 
 # boolean type, the global switch for ToC in posts.
 toc: true
